@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 1000px;
+}
+
+.container > div{
+  background: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.grind-container-form{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 2rem;
+}
+
+.grid-item-merged{
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+}
+
+.grind-container > div > * {
+  display: block;
+}
+
+.grind-container > div > label{
+  color: #B91450;
+  margin: 0.5rem;
+}
+
+.grind-container > div > input,
+ select{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #B91450;
+  border-radius: 0.25rem;
+
+  font-size: 1rem;
+  text-align: center;
+  outline: 0;
+  background: white;
+}
+
+button {
+  background-color: white;
+  color: #B91450;
+  font-size: 0.75rem;
+
+  margin: 5px 10px;
+  border: 1px solid #B91450;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  cursor: pointer;
+} 
+
+.grind-container-ticket{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1rem;
+
+  margin: 0.5rem;
+  border: 2px solid grey;
+}
+
+.grid-item-passaggerName{
+  background: grey;
+  color: #B91450;
+}
+
+.grind-container-ticket > div > *{
+  text-align: left ;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
