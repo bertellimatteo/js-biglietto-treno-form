@@ -23,20 +23,21 @@
   
         <div>
           <label for="fullName"><b>KM DA PERCORRERE:</b></label>
-          <input type="text" id="fullName" name="fullName" placeholder="inserici i km">
+          <input type="number" id="km" placeholder="inserisci i km">
         </div>
         
         <div>
           <label for="fullName"><b>FASCIA DI ETà:</b></label>
-          <select name="" id="">
-            <option value="minorenne">minorenne</option>
-            <option value="maggiorenne">maggirenne</option>
-          </select>
+          <input 
+         type="number" 
+         id="age"
+         placeholder="inserici la tua età" 
+        />
         </div>
   
         <div class="grid-item-merged">
           <button onclick="calcoloPrezzo()"><b>GENERA</b></button>
-          <button onclick="calcoloPrezzo()"><b>ANNULLA</b></button>
+          <button><b>ANNULLA</b></button>
         </div>
         
   
@@ -70,40 +71,14 @@
         </div>
         <div>
           <h3>costo bigllietto</h3>
-          <p></p>
+          <p id="ticketPrice"></p>
         </div>
         
-        
-
-
-
       </div>
-      
-
-     
-      
-
 
     </div>
-
-
-
-    
+  
   </div>
-
-      
-      
-     
-      
-
-      
-      
-
-
-
-
-
-
 
   <script src="./asset/javascript/script.js"></script>
   
