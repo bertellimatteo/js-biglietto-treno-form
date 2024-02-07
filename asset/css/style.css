@@ -11,8 +11,12 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #f4f4f4;
+  background-color: #B91450;
   font-family: Arial, sans-serif;
+}
+
+h2{
+  color: white;
 }
 
 .container {
@@ -40,16 +44,16 @@ body {
   justify-content: center;
 }
 
-.grind-container > div > * {
+.grind-container-form > div > * {
   display: block;
 }
 
-.grind-container > div > label{
+.grind-container-form > div > label{
   color: #B91450;
   margin: 0.5rem;
 }
 
-.grind-container > div > input,
+.grind-container-form > div > input,
  select{
   width: 100%;
   padding: 5px;
@@ -67,7 +71,7 @@ button {
   color: #B91450;
   font-size: 0.75rem;
 
-  margin: 5px 10px;
+  margin: 0px 15px;
   border: 1px solid #B91450;
   border-radius: 5px;
   padding: 10px 20px;
@@ -81,11 +85,11 @@ button {
   gap: 1rem;
 
   margin: 0.5rem;
-  border: 2px solid grey;
+  border: 2px solid lightgrey;
 }
 
 .grid-item-passaggerName{
-  background: grey;
+  background: lightgrey;
   color: #B91450;
 }
 
