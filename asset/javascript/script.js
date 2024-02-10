@@ -3,6 +3,9 @@ function calcoloPrezzo() {
 
   const km = parseFloat(document.getElementById('km').value);
   const age = parseInt(document.getElementById('age').value);
+  const fullName = document.getElementById('fullName').value; 
+
+  document.getElementById('passengerName').textContent = fullName;
 
   const basePrice = km * 0.21;
 
