@@ -21,5 +21,3 @@ function calcoloPrezzo() {
   
   document.getElementById('passengerName').textContent = fullName;
 }
-
-console.log(calcoloPrezzo())
